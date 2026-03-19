@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="./css/Register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="register-container">
+    <div class="logo"><img src="./images/Glitter-Logo-1-1024x687-1.png" class="img-logo" alt=""></div>
+
+    <h2 class="fw-bold fa-2x">Create Your Account</h2>
+    <p class="subtitle">Start your journey with us today.</p>
+
+    <form class="register-form">
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Jane Doe" name="user_name" id="name" required>
+        <div class="alert alert-danger d-none" id="errorAlert1" role="alert"></div>
+        
+        <label>Email Address</label>
+        <input type="email" placeholder="jane.doe@example.com" name="user_email" id="email" required>
+        <div class="alert alert-danger d-none" id="errorAlert2" role="alert"></div>
+        
+        <label>Phone Number</label>
+        <input type="text" placeholder="+20xxxxxxxxxx" name="user_phone" id="phone" required>
+        <div class="alert alert-danger d-none" id="errorAlert3" role="alert"></div>
+        
+        <label>Shipping Address</label>
+        <textarea placeholder="123 Market St, San Francisco, CA 94103" name="user_address" id="Shipping" required></textarea>
+        <div class="alert alert-danger d-none" id="errorAlert4" role="alert"></div>
+        
+        <label>Password</label>
+        <div class="password-wrapper">
+            <input type="password" placeholder="••••••••" name="user_password" id="password" required>
+        </div>
+        <div class="alert alert-danger d-none" id="errorAlert5" role="alert"></div>
+        
+        <label>Confirm Password</label>
+        <input type="password" placeholder="••••••••" name="user_confirm" id="repPassword" required>
+        <div class="alert alert-danger d-none" id="errorAlert6" role="alert"></div>
+
+         <button type="submit" class="register-btn mt-3">Register</button>
+
+        <p class="login-text">
+            Already have an account? <a href="./index.html" style="text-decoration: none;">Log in</a>
+        </p>
+
+    </form>
+</div>
+    
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script> 
+<script src="js/register.js"></script> 
+<script>
+
+</script>
+</body>
+</html>

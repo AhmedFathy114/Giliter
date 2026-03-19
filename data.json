@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "2936",
+      "name": "ahmed",
+      "email": "af3611038@gmail.com",
+      "password": "999",
+      "phone": "+201203009255",
+      "ShippingAddress": "Qalyubia,Benha,Mujual"
+    },
+    {
+      "id": "94f2",
+      "name": "ahmed",
+      "email": "af361103899@gmail.com",
+      "password": "1234",
+      "phone": "+201203009255",
+      "ShippingAddress": "Qalyubia,Benha,Mujual"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,122 @@
+body {
+    background: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.register-container {
+    background: white;
+    padding:20px 40px;
+    width: 600px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+.logo {
+    text-align: center;
+    /* font-size: 22px; */
+    margin-bottom: 20px;
+    /* font-weight: 600; */
+    color: #1e40af;
+}
+.img-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+.subtitle {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #6b7280;
+}
+.register-form label {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0 5px;
+    display: block;
+}
+.register-form input,
+.register-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+textarea {
+    height: 70px;
+}
+.password-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.password-wrapper input {
+    width: 100%;
+}
+.register-btn {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.register-btn:hover {
+    background: #1e3a8a;
+}
+.login-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.login-text a {
+    color: #2563eb;
+    font-weight: 600;
+}
+@media (max-width: 768px) {
+    .register-container {
+        width: 90%;
+        padding: 25px;
+    }
+    .register-container h2 {
+        font-size: 22px;
+    }
+    .register-container .subtitle {
+        font-size: 14px;
+    }
+    input,
+    textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .register-btn {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 480px) {
+    .register-container {
+        width: 100%;
+        padding: 40px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    label {
+        font-size: 13px;
+    }
+    .register-btn {
+        font-size: 15px;
+        padding: 10px;
+    }
+}

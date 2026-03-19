@@ -1,0 +1,7 @@
+Ahmed Fathy Mohamed  => login,register,forgetpassword,new arrivalsوprodcut
+
+Ali Mostafa  => home page with data
+
+Essam Elmasry  =>  shop all,footwaer,bags with data
+
+Farah   => our brnaches

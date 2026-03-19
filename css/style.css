@@ -1,0 +1,88 @@
+    .product-card {
+        transition: 0.3s;
+        position: relative;
+    }
+
+    .product-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .badge-discount {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: red;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+    /* Sidebar Cart */
+    #cartSidebar {
+        position: fixed;
+        top: 0;
+        right: -400px;
+        width: 350px;
+        height: 100%;
+        background: #fff;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        z-index: 1050;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cartSidebar.open {
+        right: 0;
+    }
+
+    #cartSidebar .cart-header {
+        padding: 1rem;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #cartSidebar .cart-body {
+        flex: 1;
+        overflow-y: auto;
+        padding: 1rem;
+    }
+
+    #cartSidebar .cart-footer {
+        padding: 1rem;
+        border-top: 1px solid #ddd;
+    }
+
+    /* Footer links */
+    .footer-links a {
+        color: #212529;
+        text-decoration: none;
+        display: inline-block;
+        padding: 2px 0;
+    }
+
+    .footer-links a:hover,
+    .footer-links a:focus {
+        color: #000;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
